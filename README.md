@@ -19,5 +19,4 @@ This repository contains clean and well-documented implementations of various so
 ## Contributing
 Contributions and improvements are welcome! Feel free to submit a pull request.
 
-## Author 
-Nishant Mishra
+#### Author- Nishant Mishra
