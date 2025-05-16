@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/* Bubble sort has a time complexity of O(n²) in the worst
+and average case and O(n) in the best case*/
+
 void bubble_sort(int arr[], int n){
     for(int i = n-1; i >= 1; i--){
         for (int j = 0; j <= i-1; j++){
