@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/* merge sort has the time complexity of O(nlogn) for all cases.
+It uses an auxillary space for creating temporary array and merging
+which hampers its space complexity */
+
 void merge(vector <int> &arr, int low, int mid, int high){
     vector <int> temp;
     int left=low;
