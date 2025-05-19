@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// insertion sort has a time complexity of O(n²) in worst and average cases and O(n) in the best case
+/* insertion sort has a time complexity of O(n²) in worst and average cases
+and O(n) in the best case */
 
 void insertion_sort(int arr[], int n){
     for(int i = 0; i <= n-1; i++){
