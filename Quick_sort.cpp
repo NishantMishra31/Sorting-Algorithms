@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/* Quick sort has a time complexity of o(nlogn) for best and average cases
+and O(n^2) in the worst case (due to bad choice of pivot element).
+It has the optimal space complexity of O(1) as it uses no auxillary space.*/ 
+
 int partition(vector <int> &arr, int low,int high){
     int pivot = arr[low];
     int i = low;
